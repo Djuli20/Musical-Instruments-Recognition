@@ -4,6 +4,7 @@ The full documentation can be found in the file Musical Instrument Documentation
 In the Dataset.rar can be found the dataset created by me used for training the TensorFlow model. The dataset is actually a CSV file with the 1000 FFT values per instrument in the interval 0-5000Hz. For the full WAV dataset mail me.
 The Train1000bands.py file is the python program configured for training the model with best results and with performance measurements.
 The Model10ep_2^17_1000benzitabel.keras model is actually the best model I was able to train. Initially I was considering 200 bands, but upgrading to 1000 bands drastically improved the accuracy.
+Identifier.py is the actual program that uses the trained model to test the functionality. You can use on a file from the folder ForTest in order to see the functionality.
 
 
 
